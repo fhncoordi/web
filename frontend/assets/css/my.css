@@ -11,8 +11,33 @@
     line-height:center;
     font-size:1.1rem;
 }
-
-/*#welcome .content .container{
-    color: black;
+.list-group {
+    text-align: center;
 }
-*/
+#asoinfo{
+    background-color:var(--bs-light) !important; ;
+}
+.list-group-gobern {
+    --bs-list-group-color: var(--bs-component-color);
+    --bs-list-group-bg: var(--bs-component-bg);
+    --bs-list-group-border-color: var(--bs-component-border-color);
+    --bs-list-group-border-width: var(--bs-border-width);
+    --bs-list-group-border-radius: var(--bs-border-radius);
+    --bs-list-group-item-padding-x: 0.9375rem;
+    --bs-list-group-item-padding-y: 0.703125rem;
+    --bs-list-group-action-color: var(--bs-component-color);
+    --bs-list-group-action-hover-color: var(--bs-component-color);
+    --bs-list-group-action-hover-bg: var(--bs-component-hover-bg);
+    --bs-list-group-action-active-color: var(--bs-component-active-color);
+    --bs-list-group-action-active-bg: var(--bs-component-active-bg);
+    --bs-list-group-disabled-color: var(--bs-component-disabled-color);
+    --bs-list-group-disabled-bg: var(--bs-component-bg);
+    --bs-list-group-active-color: var(--bs-component-active-color);
+    --bs-list-group-active-bg: var(--bs-component-active-bg);
+    --bs-list-group-active-border-color: var(--bs-component-active-border-color);
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    border-radius: var(--bs-list-group-border-radius);
+}
